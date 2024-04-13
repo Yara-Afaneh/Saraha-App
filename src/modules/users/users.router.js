@@ -7,4 +7,6 @@ const router=Router();
 router.get('/profile',asyncHandler(auth),asyncHandler(userController.getProfile))
 
 
+
+
 export default router;
